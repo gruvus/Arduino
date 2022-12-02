@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{0701a762-1e45-4a96-a6e1-15368e3b58fc}</ItemsProjectGuid>
+    <ItemsProjectName>@Timers_x01</ItemsProjectName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)T1_setup.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\%40Timers\T1_aux.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)T2_setup.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)T1_setup.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\%40Timers\T1_aux.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)T2_setup.cpp" />
+  </ItemGroup>
+</Project>

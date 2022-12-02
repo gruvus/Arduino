@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Preproc", "..\..\sketchbook\Preproc\Preproc.vcxproj", "{83528527-DD9B-48F5-87C8-968629007A0F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utils_TestPins", "..\..\sketchbook\Utils_TestPins\Utils_TestPins.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "@Utils", "..\..\sketchbook\@Utils\@Utils.vcxitems", "{BA2EE714-206F-407D-8B92-7B6CE8949420}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Direct_io", "..\..\sketchbook\Direct_io\Direct_io.vcxproj", "{A4BBD3FD-3FDE-4459-9001-2319CB473AE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83528527-DD9B-48F5-87C8-968629007A0F}.Debug|x86.ActiveCfg = Debug|Win32
+		{83528527-DD9B-48F5-87C8-968629007A0F}.Debug|x86.Build.0 = Debug|Win32
+		{83528527-DD9B-48F5-87C8-968629007A0F}.Release|x86.ActiveCfg = Release|Win32
+		{83528527-DD9B-48F5-87C8-968629007A0F}.Release|x86.Build.0 = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{A4BBD3FD-3FDE-4459-9001-2319CB473AE5}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4BBD3FD-3FDE-4459-9001-2319CB473AE5}.Debug|x86.Build.0 = Debug|Win32
+		{A4BBD3FD-3FDE-4459-9001-2319CB473AE5}.Release|x86.ActiveCfg = Release|Win32
+		{A4BBD3FD-3FDE-4459-9001-2319CB473AE5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C8A18FB-2DE7-4711-9F6A-C57453DA423E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\sketchbook\@Utils\@Utils.vcxitems*{83528527-dd9b-48f5-87c8-968629007a0f}*SharedItemsImports = 4
+		..\..\sketchbook\@Utils\@Utils.vcxitems*{a4bbd3fd-3fde-4459-9001-2319cb473ae5}*SharedItemsImports = 4
+		..\..\sketchbook\@Utils\@Utils.vcxitems*{ba2ee714-206f-407d-8b92-7b6ce8949420}*SharedItemsImports = 9
+		..\..\sketchbook\@Utils\@Utils.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal

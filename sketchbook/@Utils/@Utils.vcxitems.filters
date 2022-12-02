@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)..\%40Utils\Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_io.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_bits.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_test_pins.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_test_pins_UNO.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_test_pins_MEGA.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{5957cec8-f651-41fc-945c-a5ff2c470b17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)utils.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)utils_io.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)utils_bits.cpp" />
+  </ItemGroup>
+</Project>

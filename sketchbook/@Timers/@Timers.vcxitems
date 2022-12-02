@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{0701a762-1e45-4a96-a6e1-15368e3b58fc}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\%40Timers\genT16.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)g_OneShot16_onT1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)g_OneShot16_onT3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)g_OneShot16_onT4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)g_OneShot16_onT5.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)hw_specs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)T1_setup.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\%40Timers\T1_aux.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)T2_setup.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Timer_OneShot.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Timer_OneShot_T1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Timer_OneShot_T2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\%40Timers\T_OneShot_8bit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)T_OneShot_16bit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)T_OneShot_Base.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\%40Timers\genT16.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)g_OneShot16_onT1.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)g_OneShot16_onT3.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)g_OneShot16_onT4.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)g_OneShot16_onT5.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)hw_specs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)T1_setup.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\%40Timers\T1_aux.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)T2_setup.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Timer_OneShot.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Timer_OneShot_T2.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\%40Timers\Timer_OneShot_T1.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\%40Timers\T_OneShot_8bit.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)T_OneShot_16bit.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)T_OneShot_Base.cpp" />
+  </ItemGroup>
+</Project>
