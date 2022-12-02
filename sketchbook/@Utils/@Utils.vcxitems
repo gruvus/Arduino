@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{ba2ee714-206f-407d-8b92-7b6ce8949420}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)..\%40Utils\Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_bits.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_io.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_test_pins.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_test_pins_MEGA.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)utils_test_pins_UNO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)utils.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)utils_bits.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)utils_io.cpp" />
+  </ItemGroup>
+</Project>

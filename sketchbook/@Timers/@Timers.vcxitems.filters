@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)T2_setup.h">
+      <Filter>T2 setup files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\%40Timers\genT16.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\%40Timers\T_OneShot_8bit.h">
+      <Filter>OneShot_Class files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)T_OneShot_16bit.h">
+      <Filter>OneShot_Class files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)T_OneShot_Base.h">
+      <Filter>OneShot_Class files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Timer_OneShot.h">
+      <Filter>OneShot_Class files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Timer_OneShot_T1.h">
+      <Filter>purge</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)T1_setup.h">
+      <Filter>purge</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)g_OneShot16_onT1.h">
+      <Filter>g_T16 files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)g_OneShot16_onT3.h">
+      <Filter>g_T16 files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)g_OneShot16_onT4.h">
+      <Filter>g_T16 files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)g_OneShot16_onT5.h">
+      <Filter>g_T16 files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)hw_specs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\%40Timers\T1_aux.h">
+      <Filter>purge</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Timer_OneShot_T2.h">
+      <Filter>purge</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)T2_setup.cpp">
+      <Filter>T2 setup files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\%40Timers\genT16.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\%40Timers\T_OneShot_8bit.cpp">
+      <Filter>OneShot_Class files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)T_OneShot_16bit.cpp">
+      <Filter>OneShot_Class files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)T_OneShot_Base.cpp">
+      <Filter>OneShot_Class files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Timer_OneShot.cpp">
+      <Filter>purge</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\%40Timers\Timer_OneShot_T1.cpp">
+      <Filter>purge</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)T1_setup.cpp">
+      <Filter>purge</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)g_OneShot16_onT1.cpp">
+      <Filter>g_T16 files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)g_OneShot16_onT3.cpp">
+      <Filter>g_T16 files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)g_OneShot16_onT4.cpp">
+      <Filter>g_T16 files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)g_OneShot16_onT5.cpp">
+      <Filter>g_T16 files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)hw_specs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\%40Timers\T1_aux.cpp">
+      <Filter>purge</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Timer_OneShot_T2.cpp">
+      <Filter>purge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="OneShot_Class files">
+      <UniqueIdentifier>{b6f72bbe-09a6-45e9-8300-403f44009947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="purge">
+      <UniqueIdentifier>{96117ac5-8de9-44f7-a533-d90e0666799f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="T2 setup files">
+      <UniqueIdentifier>{3c346239-f59f-4968-ae95-115396c63c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="g_T16 files">
+      <UniqueIdentifier>{931af075-e962-4872-878e-26844f275f56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

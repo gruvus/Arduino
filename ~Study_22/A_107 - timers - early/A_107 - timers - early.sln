@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "@Timers_z01", "..\..\sketchbook\x01_Timers\@Timers\@Timers.vcxitems", "{0701A762-1E45-4A96-A6E1-15368E3B58FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "@Utils", "..\..\sketchbook\x01_Timers\@Utils\@Utils.vcxitems", "{BA2EE714-206F-407D-8B92-7B6CE8949420}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timer1_TestCases", "..\..\sketchbook\x01_Timers\Timer1_TestCases\Timer1_TestCases.vcxproj", "{FB43958F-1A18-4B33-949E-4C23C404EC30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timer2_micros", "..\..\sketchbook\x01_Timers\Timer2_micros\Timer2_micros.vcxproj", "{95899E3E-1C92-4049-B678-1068402DDFBC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timer2_micros_ctc", "..\..\sketchbook\x01_Timers\Timer2_micros_ctc\Timer2_micros_ctc.vcxproj", "{F43D954D-CE37-4586-BE4C-2BD05DDAFEAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timer2_one_shot", "..\..\sketchbook\x01_Timers\Timer2_one_shot\Timer2_one_shot.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timer2_TestCases", "..\..\sketchbook\x01_Timers\Timer2_TestCases\Timer2_TestCases.vcxproj", "{BAEE086E-8753-4424-8FDC-3EBEA137CF2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "~Sketch_A107", "~Sketch_A107\~Sketch_A107.vcxproj", "{4BAFDE4A-DAA0-4F85-B6EE-3AB7C6CD97D3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timer1_one_shot_x01", "..\..\sketchbook\x01_Timers\Timer1_one_shot\Timer1_one_shot.vcxproj", "{E0EBC761-05A3-4ED2-BC7C-E1752B2D66FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB43958F-1A18-4B33-949E-4C23C404EC30}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB43958F-1A18-4B33-949E-4C23C404EC30}.Debug|x86.Build.0 = Debug|Win32
+		{FB43958F-1A18-4B33-949E-4C23C404EC30}.Release|x86.ActiveCfg = Release|Win32
+		{FB43958F-1A18-4B33-949E-4C23C404EC30}.Release|x86.Build.0 = Release|Win32
+		{95899E3E-1C92-4049-B678-1068402DDFBC}.Debug|x86.ActiveCfg = Debug|Win32
+		{95899E3E-1C92-4049-B678-1068402DDFBC}.Debug|x86.Build.0 = Debug|Win32
+		{95899E3E-1C92-4049-B678-1068402DDFBC}.Release|x86.ActiveCfg = Release|Win32
+		{95899E3E-1C92-4049-B678-1068402DDFBC}.Release|x86.Build.0 = Release|Win32
+		{F43D954D-CE37-4586-BE4C-2BD05DDAFEAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{F43D954D-CE37-4586-BE4C-2BD05DDAFEAE}.Debug|x86.Build.0 = Debug|Win32
+		{F43D954D-CE37-4586-BE4C-2BD05DDAFEAE}.Release|x86.ActiveCfg = Release|Win32
+		{F43D954D-CE37-4586-BE4C-2BD05DDAFEAE}.Release|x86.Build.0 = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{BAEE086E-8753-4424-8FDC-3EBEA137CF2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAEE086E-8753-4424-8FDC-3EBEA137CF2B}.Debug|x86.Build.0 = Debug|Win32
+		{BAEE086E-8753-4424-8FDC-3EBEA137CF2B}.Release|x86.ActiveCfg = Release|Win32
+		{BAEE086E-8753-4424-8FDC-3EBEA137CF2B}.Release|x86.Build.0 = Release|Win32
+		{4BAFDE4A-DAA0-4F85-B6EE-3AB7C6CD97D3}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BAFDE4A-DAA0-4F85-B6EE-3AB7C6CD97D3}.Debug|x86.Build.0 = Debug|Win32
+		{4BAFDE4A-DAA0-4F85-B6EE-3AB7C6CD97D3}.Release|x86.ActiveCfg = Release|Win32
+		{4BAFDE4A-DAA0-4F85-B6EE-3AB7C6CD97D3}.Release|x86.Build.0 = Release|Win32
+		{E0EBC761-05A3-4ED2-BC7C-E1752B2D66FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0EBC761-05A3-4ED2-BC7C-E1752B2D66FB}.Debug|x86.Build.0 = Debug|Win32
+		{E0EBC761-05A3-4ED2-BC7C-E1752B2D66FB}.Release|x86.ActiveCfg = Release|Win32
+		{E0EBC761-05A3-4ED2-BC7C-E1752B2D66FB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C168BA2-99F5-4782-BACF-D82CE2E1A9E2}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\sketchbook\x01_Timers\@Timers\@Timers.vcxitems*{0701a762-1e45-4a96-a6e1-15368e3b58fc}*SharedItemsImports = 9
+		..\..\sketchbook\x01_Timers\@Timers\@Timers.vcxitems*{4bafde4a-daa0-4f85-b6ee-3ab7c6cd97d3}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Utils\@Utils.vcxitems*{4bafde4a-daa0-4f85-b6ee-3ab7c6cd97d3}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Timers\@Timers.vcxitems*{95899e3e-1c92-4049-b678-1068402ddfbc}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Utils\@Utils.vcxitems*{ba2ee714-206f-407d-8b92-7b6ce8949420}*SharedItemsImports = 9
+		..\..\sketchbook\x01_Timers\@Timers\@Timers.vcxitems*{baee086e-8753-4424-8fdc-3ebea137cf2b}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Timers\@Timers.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Utils\@Utils.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Timers\@Timers.vcxitems*{e0ebc761-05a3-4ed2-bc7c-e1752b2d66fb}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Utils\@Utils.vcxitems*{e0ebc761-05a3-4ed2-bc7c-e1752b2d66fb}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Timers\@Timers.vcxitems*{f43d954d-ce37-4586-be4c-2bd05ddafeae}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Timers\@Timers.vcxitems*{fb43958f-1a18-4b33-949e-4c23c404ec30}*SharedItemsImports = 4
+		..\..\sketchbook\x01_Timers\@Utils\@Utils.vcxitems*{fb43958f-1a18-4b33-949e-4c23c404ec30}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
