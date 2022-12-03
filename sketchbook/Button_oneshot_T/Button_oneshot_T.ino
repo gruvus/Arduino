@@ -29,8 +29,8 @@ int Button_stable_state;
 const byte buttonPin = 3;
 
 
-OneShotBase& myTmr8 = myOneShot8;
-OneShotBase& myTmr16 = myOneShot16;
+OneShotBase& myTmr8 = myOneShot8_onT2;
+OneShotBase& myTmr16 = myOneShot16_onT1;
 
 OneShotBase& myTmr = myTmr16;
 
